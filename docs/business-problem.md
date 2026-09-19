@@ -8,8 +8,8 @@ Lead Generated
 
 Challenges:
 
-Delayed customer engagement
-No lead prioritization
-Inconsistent RM follow-up
-Limited personalization
-Low visibility into customer intent
+- Delayed customer engagement
+- No lead prioritization
+- Inconsistent RM follow-up
+- Limited personalization
+- Low visibility into customer intent
