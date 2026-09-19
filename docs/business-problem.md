@@ -1,14 +1,10 @@
 # Current State
 
 Lead Generated
-      ↓
-Lead Assigned
-      ↓
-RM Contact (2 Days Later)
-      ↓
-Customer Interest Lost
-      ↓
-No Conversion
+→ Lead Assigned
+→ RM Contact (2 Days Later)
+→ Customer Interest Lost
+→ No Conversion
 
 Challenges:
 
