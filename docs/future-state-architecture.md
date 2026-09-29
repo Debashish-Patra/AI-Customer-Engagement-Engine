@@ -55,3 +55,26 @@ This layer's job is to decide what happens next for each customer, via three eng
 - Next Best Action Engine — takes both inputs and makes the call: engage now, wait, escalate, or assign to an RM.
 
 The propensity and intent engines produce signals; the Next Best Action engine is what converts those signals into a decision. From a product standpoint, this is the layer that turns raw customer data into something the business can actually act on — everything upstream (Customer Intelligence Layer) is about knowing the customer, everything here is about deciding what to do about it.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Layer 4: Engagement Orchestration Layer
+
+The Engagement Orchestration Layer is the central nervous system responsible for determining when, why, how, and through which channel a customer should be engaged across the acquisition journey.
+
+Five core capabilities:
+
+1. Trigger Management — listens for customer events (lead submitted, app installed, KYC incomplete, website visit, etc.) and decides whether engagement is required right now. Without this, engagement stays batch-driven and reactive.
+2. Journey Orchestration — decides what happens next once a trigger fires (WhatsApp message, email, push, AI conversation, RM assignment, or wait). This is where the flow — welcome message → response → intent assessment → qualification → product recommendation → RM handoff → RM follow-up — is stitched into one continuous conversation rather than disjointed touches.
+3. Conversational Intelligence (Agentic WhatsApp) — the difference between a traditional chatbot (question → predefined answer) and an agentic one (understand intent → retrieve context → reason → generate response → take action). The AI qualifies the lead through conversation rather than just answering it.
+4. RAG-Based Response Automation — grounds every response in real knowledge sources (product FAQs, brokerage plans, KYC policies, compliance guidelines) instead of letting the LLM answer generically. The product outcome: a grounded, compliant response instead of a hallucinated one — critical in financial services.
+5. RM Collaboration Layer — AI handles engagement, RM handles relationships. Before handoff, the RM receives a full package: customer profile, intent summary, conversation history, lead score, recommended next action, product interest — so they walk in with context, not a cold lead.
+
+Plus a Continuous Learning Layer running underneath all five: every conversation outcome, RM feedback, and conversion result feeds back into the propensity models, decision engine, and recommendation models — making the system self-improving rather than static.
+
+The key architectural distinction the doc makes: the Agentic WhatsApp Journey is not the Engagement Orchestration Layer — it's one capability inside it.
+
+- Orchestration layer decides WHEN to engage
+- WhatsApp agent decides HOW to engage
+- RAG engine decides WHAT to say
+- RM handoff engine decides WHO acts next
