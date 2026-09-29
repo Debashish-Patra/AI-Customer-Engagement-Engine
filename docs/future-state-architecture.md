@@ -6,30 +6,5 @@ The platform continuously captures customer intent signals, determines the next-
 
 This transforms a traditionally reactive sales process into a proactive, always-on engagement ecosystem.
 
-┌─────────────────────────────┐
-│     Lead Sources Layer      │
-└─────────────┬───────────────┘
-              ▼
-┌─────────────────────────────┐
-│ Customer Intelligence Layer │
-└─────────────┬───────────────┘
-              │
-              ▼
-┌─────────────────────────────┐
-│  AI Decisioning Platform    │
-└─────────────┬───────────────┘
-              │
-              ▼
-┌─────────────────────────────┐
-│ Engagement Orchestration    │
-└─────────────┬───────────────┘
-              │
-              ▼
-┌─────────────────────────────┐
-│ Human Engagement Layer      │
-└─────────────┬───────────────┘
-              │
-              ▼
-┌─────────────────────────────┐
-│ Business Outcomes Layer     │
-└─────────────────────────────┘
+<img width="673" height="1077" alt="image" src="https://github.com/user-attachments/assets/b412b273-8b05-47bc-ba94-ad645c37e6ba" />
+
