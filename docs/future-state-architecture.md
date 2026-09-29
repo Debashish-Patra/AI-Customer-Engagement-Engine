@@ -25,7 +25,15 @@ Sources include -
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 ## Layer 2: Customer Intelligence Layer
 
-Built around a Customer Data Platform (CDP), this layer pulls together everything known about a lead — demographics, source, campaign history, website and WhatsApp behavior, past RM conversations, product interest, and trading activity — to answer four questions: who they are, what they've done, what they want, and how likely they are to convert.
+It works in two distinct steps, not one — capture and enrichment are different jobs:
+
+Capture — raw signals get logged the moment they happen, per channel: a form fill or ad click (lead source, campaign history), a page visited or time spent on it (website behavior), a message sent or ignored (WhatsApp interactions), notes from a call (previous RM conversations), a fund or stock viewed (product interest), an order placed (trading behavior). At this stage it's just events — timestamped, tagged to a channel, nothing interpreted yet.
+
+Enrichment — this is where the layer turns raw events into something the AI Decisioning Platform can actually use:
+
+Identity resolution — stitching together signals that came in through different channels (a WhatsApp click and a website visit) into the same customer record, rather than treating them as separate people.
+Derived signals — turning raw behavior into something interpretable: three visits to the SIP page isn't just "three page views," it's an intent signal; a demographic profile plus trading behavior becomes a product-affinity signal.
+Recency and pattern — not just what they did, but when and how often, since a customer who went quiet after being active is a different signal than one who's steadily engaging.
 
 The output is a single customer view: one unified profile that feeds the AI Decisioning Platform above it. Without this layer, decisioning would be working off fragments (a WhatsApp click here, a campaign source there); with it, every next-best-action decision is made against the whole picture, not a slice of it.
 
