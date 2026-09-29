@@ -2,14 +2,7 @@
 
 Build an always-on AI Engagement Layer that serves as the intelligence and interaction fabric between lead generation systems and relationship managers.
 
-The platform is designed to:
-
-- Engage every lead instantly
-- Capture and enrich customer intent signals
-- Prioritize leads based on propensity and readiness
-- Automate low-value interactions
-- Route high-intent prospects to RMs
-- Ensure a consistent customer experience across channels
+The platform is designed to ensure every lead gets instant, intent-aware engagement that's automatically prioritized, nurtured, and routed to the right RM at the right time — consistently, across every channel.
 
 Success is achieved when customer engagement begins immediately upon lead creation and continues uninterrupted until conversion. Thus, we transform customer acquisition from a human-dependent process to an AI-assisted engagement model, where every prospect receives immediate, contextual, and personalized interactions from the moment of lead creation until successful RM handoff.
 
@@ -30,6 +23,7 @@ Lead Generated
 The AI engagement layer is the digital front door — it sits between the systems that generate leads and the RMs who close them, and it's built to do six things continuously: 
 
 <img width="1283" height="290" alt="image" src="https://github.com/user-attachments/assets/fc481145-2fcf-42a6-bfeb-113127bb0149" />
+
 
 1. Engage every lead instantly — no lead sits untouched waiting for a human to pick it up; the moment it's created, something responds
 2. Capture and enrich intent signals — every interaction (what they clicked, asked, or ignored) gets logged and used to build a fuller picture of what the customer actually wants — not every lead deserves the same urgency; this ranks them by how likely and how ready they are to convert
