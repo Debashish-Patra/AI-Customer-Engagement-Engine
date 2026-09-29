@@ -31,9 +31,9 @@ It works in two distinct steps, not one — capture and enrichment are different
 
 **Enrichment** — this is where the layer turns raw events into something the AI Decisioning Platform can actually use:
 
-Identity resolution — stitching together signals that came in through different channels (a WhatsApp click and a website visit) into the same customer record, rather than treating them as separate people.
-Derived signals — turning raw behavior into something interpretable: three visits to the SIP page isn't just "three page views," it's an intent signal; a demographic profile plus trading behavior becomes a product-affinity signal.
-Recency and pattern — not just what they did, but when and how often, since a customer who went quiet after being active is a different signal than one who's steadily engaging.
+- Identity resolution — stitching together signals that came in through different channels (a WhatsApp click and a website visit) into the same customer record, rather than treating them as separate people.
+- Derived signals — turning raw behavior into something interpretable: three visits to the SIP page isn't just "three page views," it's an intent signal; a demographic profile plus trading behavior becomes a product-affinity signal.
+- Recency and pattern — not just what they did, but when and how often, since a customer who went quiet after being active is a different signal than one who's steadily engaging.
 
 
 
