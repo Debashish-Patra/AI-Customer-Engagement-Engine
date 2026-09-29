@@ -22,4 +22,19 @@ Sources include -
 - Branch Walk-ins
 - Partner Ecosystem
 - Franchise Network
+----------------------------------------------------------------------------------------------------------------------------------------------------
+## Layer 2: Customer Intelligence Layer
 
+Built around a Customer Data Platform (CDP), this layer pulls together everything known about a lead — demographics, source, campaign history, website and WhatsApp behavior, past RM conversations, product interest, and trading activity — to answer four questions: who they are, what they've done, what they want, and how likely they are to convert.
+
+The output is a single customer view: one unified profile that feeds the AI Decisioning Platform above it. Without this layer, decisioning would be working off fragments (a WhatsApp click here, a campaign source there); with it, every next-best-action decision is made against the whole picture, not a slice of it.
+
+Data Captured - 
+- Demographics
+- Lead Source
+- Campaign History
+- Website Behaviour
+- WhatsApp Interactions
+- Previous RM Conversations (if any)
+- Product Interests
+- Trading Behaviour
