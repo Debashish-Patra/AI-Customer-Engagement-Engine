@@ -9,7 +9,6 @@ This transforms a traditionally reactive sales process into a proactive, always-
 ┌─────────────────────────────┐
 │     Lead Sources Layer      │
 └─────────────┬───────────────┘
-              │
               ▼
 ┌─────────────────────────────┐
 │ Customer Intelligence Layer │
