@@ -1,4 +1,4 @@
-## Product Vision
+# Product Vision
 
 Build an always-on AI Engagement Layer that serves as the intelligence and interaction fabric between lead generation systems and relationship managers.
 
@@ -18,7 +18,7 @@ Lead Generated
 → RM Handoff
 → Conversion
 
-# AI Engagement Layer
+## AI Engagement Layer
 
 The AI engagement layer is the digital front door — it sits between the systems that generate leads and the RMs who close them, and it's built to do six things continuously: 
 
