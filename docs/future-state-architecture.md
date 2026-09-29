@@ -78,3 +78,19 @@ The key architectural distinction the doc makes: the Agentic WhatsApp Journey is
 - WhatsApp agent decides HOW to engage
 - RAG engine decides WHAT to say
 - RM handoff engine decides WHO acts next
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Layer 5: Human Engagement Layer
+
+Relationship Managers (RMs) time is the scarcest, most expensive resource in the funnel, and today it's spent unevenly — hunting for the right customer to call, re-establishing context that already exists somewhere in the system, and working leads that were never going to convert. This layer's job is to fix the allocation, not shrink the headcount.
+
+The Human Engagement Layer ensures that AI-driven customer engagement transitions seamlessly into high-quality human interactions when advisory expertise, trust-building, or conversion support is required.
+
+The objective is not to replace RMs, but to maximize their effectiveness by providing complete customer context, intent intelligence, and recommended actions.
+
+The Human Engagement Layer operates through three steps:
+- Identify: The AI Engagement Layer continuously evaluates customer behavior, intent, and readiness. When a predefined threshold is reached, the customer is considered ready for human engagement.
+  High Purchase Intent → Callback Requested → Complex Product Query → High-Value Customer → KYC Completed
+- Prepare: Before assigning the customer, the platform generates a complete engagement context.
+  Customer Profile → Intent Summary → Product Interest → Conversation History → Recommended Next Action
+- Engage: The platform routes the customer to the most appropriate RM and initiates the human conversation.
+  Customer Ready → Best RM Selected → Context Shared → RM Engagement → Conversion
