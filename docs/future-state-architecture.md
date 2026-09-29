@@ -35,8 +35,6 @@ It works in two distinct steps, not one — capture and enrichment are different
 - Derived signals — turning raw behavior into something interpretable: three visits to the SIP page isn't just "three page views," it's an intent signal; a demographic profile plus trading behavior becomes a product-affinity signal.
 - Recency and pattern — not just what they did, but when and how often, since a customer who went quiet after being active is a different signal than one who's steadily engaging.
 
-
-
 Data Captured - 
 - Demographics
 - Lead Source
@@ -46,3 +44,14 @@ Data Captured -
 - Previous RM Conversations (if any)
 - Product Interests
 - Trading Behaviour
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+## Layer 3: AI Decisioning Platform
+
+This layer's job is to decide what happens next for each customer, via three engines working together:
+
+- Propensity Engine — scores likelihood across four outcomes: opening an account, trading, investing, and responding to outreach.
+- Customer Intent Engine — classifies where the customer is in their journey: exploring, comparing, ready to act, or needing assistance.
+- Next Best Action Engine — takes both inputs and makes the call: engage now, wait, escalate, or assign to an RM.
+
+The propensity and intent engines produce signals; the Next Best Action engine is what converts those signals into a decision. From a product standpoint, this is the layer that turns raw customer data into something the business can actually act on — everything upstream (Customer Intelligence Layer) is about knowing the customer, everything here is about deciding what to do about it.
