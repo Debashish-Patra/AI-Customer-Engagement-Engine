@@ -1,5 +1,6 @@
-# AI-Customer-Engagement-Engine
-Identified the 2-day response lag while opening the Demat Account for offline channels, thus, designed the new engagement model, and led the propensity-driven engagement engine and agentic WhatsApp journey
+# AI Customer Engagement Engine
+
+An AI-powered customer engagement platform designed to improve lead conversion by reducing response latency, personalizing customer interactions and orchestrating next-best actions across the acquisition funnel.
 
 Business Problem
 → Customer Journey
@@ -8,10 +9,6 @@ Business Problem
 → Decision Engine
 → Martech Integration
 → Business Impact
-
-# AI Customer Engagement Engine
-
-An AI-powered customer engagement platform designed to improve lead conversion by reducing response latency, personalizing customer interactions and orchestrating next-best actions across the acquisition funnel.
 
 The initiative was conceptualized after identifying a critical engagement gap where prospects were receiving responses after a 2-day delay, resulting in loss of customer intent.
 
