@@ -6,8 +6,7 @@ The platform continuously captures customer intent signals, determines the next-
 
 This transforms a traditionally reactive sales process into a proactive, always-on engagement ecosystem.
 
-<img width="1230" height="1278" alt="image" src="https://github.com/user-attachments/assets/29c1eac2-6dd5-4023-a6d4-83955be26d76" />
-
+<img width="1224" height="1285" alt="image" src="https://github.com/user-attachments/assets/2fba15a6-21eb-411f-bc17-4b2e69093942" />
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 ## Layer 1: Lead Sources Layer
