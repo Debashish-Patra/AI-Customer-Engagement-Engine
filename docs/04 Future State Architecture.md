@@ -12,7 +12,7 @@ This transforms a traditionally reactive sales process into a proactive, always-
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 ## Layer 1: Lead Sources Layer
 
-The focus is to capture customer interest from all acquisition channels. But the objective is not lead collection, it is customer intent capture.
+The objective of this layer is to create a unified lead pool and ensure every prospect enters the engagement journey with sufficient context. But the objective is not lead collection, it is customer intent capture.
 
 Sources include - 
 - Digital Advertising
@@ -23,6 +23,15 @@ Sources include -
 - Branch Walk-ins
 - Partner Ecosystem
 - Franchise Network
+
+| Framework                      | Details                                                                                                                                                                                                                                                                |
+|--------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Lead Intake                    | Add per-source mandatory field table and validation rules per field; add a deduplication key; add mandatory consent/DND capture                                                                                                                                        |
+| Lead Quality Scoring Framework | Lead marked as Hot/Warm/Cold based on details received for further processing                                                                                                                                                                                          |
+| Source Attribution Framework   | Choose Multi Touch with a stated decay window (recent touches weighted more than distant ones); name the lookback window (e.g., 90 days), and treat First/Last Touch as reporting views available to stakeholders, never as the system of record for budget allocation |
+| Routing Eligibility Rules      | Define Segment-based classification and routing framework                                                                                                                                                                                                              |
+| Data Quality & Consent Gate    | Add a binary gate: Pass (proceeds to scoring) or Held (returned to source for correction, never silently dropped) to the rest of the data                                                                                                                              |
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 ## Layer 2: Customer Intelligence Layer
 
