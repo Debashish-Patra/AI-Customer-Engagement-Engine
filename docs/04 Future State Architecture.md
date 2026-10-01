@@ -11,7 +11,7 @@ This transforms a traditionally reactive sales process into a proactive, always-
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 ## Layer 1: Lead Sources Layer
 
-The objective of this layer is to create a unified lead pool and ensure every prospect enters the engagement journey with sufficient context. But the objective is not lead collection, it is customer intent capture.
+First step is to create a unified lead capture system and ensure every prospect enters the engagement journey with sufficient context. But the objective is not lead collection, it is customer intent capture.
 
 Sources include - 
 - Digital Advertising
@@ -35,15 +35,25 @@ Sources include -
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 ## Layer 2: Customer Intelligence Layer
 
-It works in two distinct steps, not one — capture and enrichment are different jobs:
+Focus is on one continuous profile per person, running from first lead touch through active customer and beyond — not a separate lead system and a separate customer system. It works in two distinct steps, not one — capture and enrichment are different jobs:
 
 **Capture** — raw signals get logged the moment they happen, per channel: a form fill or ad click (lead source, campaign history), a page visited or time spent on it (website behavior), a message sent or ignored (WhatsApp interactions), notes from a call (previous RM conversations), a fund or stock viewed (product interest), an order placed (trading behavior). At this stage it's just events — timestamped, tagged to a channel, nothing interpreted yet.
 
-**Enrichment** — this is where the layer turns raw events into something the AI Decisioning Platform can actually use:
+**Enrichment** — this is where the layer turns raw events into something the AI Decisioning Platform can actually use.
 
+The entire focus is on merging the details into actionable input. This includes - 
 - Identity resolution — stitching together signals that came in through different channels (a WhatsApp click and a website visit) into the same customer record, rather than treating them as separate people.
 - Derived signals — turning raw behavior into something interpretable: three visits to the SIP page isn't just "three page views," it's an intent signal; a demographic profile plus trading behavior becomes a product-affinity signal.
 - Recency and pattern — not just what they did, but when and how often, since a customer who went quiet after being active is a different signal than one who's steadily engaging.
+
+| Framework                    | Description                                                                                                                      | Details                                                                                                                                                                                                                                                                                                                                                                      |
+|------------------------------|----------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Customer Identity Resolution | Establish rules to identify customer across channels                                                                             | Generates the single golden customer ID with a deterministic match layer (PAN, mobile no, email). Also a probabilistic match layer for the harder cases is defined — same device fingerprint, overlapping name plus location, near-matching contact details. Lastly, policy for the ambiguous cases                                                                          |
+| Customer 360 Data Model      | Define the customer data model with all the relevant information                                                                 | Add Profile / Financial / Behavioral / Engagement details with defined refresh cadence, source-of-record, and a confidence (completeness) flag per group; state which fields materialize into the feature store                                                                                                                                                              |
+| Behavioral Taxonomy          | Add customer actions into an organized scheme for further consideration                                                          | Add app event, trade event, lead event set; define short-half-life (searches, sessions) versus long-half-life (SIP started, first trade), and polarity per event; add a negative/friction event set for churn signals                                                                                                                                                        |
+| Segmentation Framework       | Categorize customer based on net worth, engagement behavior and stage of engagement ("Prospect → Activated → Engaged → Dormant") | Create 3 independent axes — Wealth, Behavior, Lifecycle for consideration, identify recompute cadence per axis (Wealth: monthly on AUM refresh; Behavior: weekly; Lifecycle: event-triggered); state axes combine (not replace - Lifecycle governs eligibility for outreach and Wealth/Behavior governing kind of outreach); define Lifecycle transition triggers explicitly |
+| Intent Detection Logic       | Identify customer's actual state of engagement based on all the collected data and categorization                                | Generate tiered, windowed score (Low/Medium/High or a 0–100 score) for intent rather than standalone decision; State the window on every input signal, and add one exclusion rule: check Intent against Lifecycle/complaint status before firing                                                                                                                             |
+
 
 Data Captured - 
 - Demographics
