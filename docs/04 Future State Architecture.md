@@ -73,6 +73,7 @@ This layer's job is to decide what happens next for each customer, via three eng
 - Propensity Engine — scores likelihood across four outcomes: opening an account, trading, investing, and responding to outreach.
 - Customer Intent Engine — classifies where the customer is in their journey: exploring, comparing, ready to act, or needing assistance.
 - Next Best Action Engine — takes both inputs and makes the call: engage now, wait, escalate, or assign to an RM.
+- Decision Hierarchy - One winning action to execute now for engage now, plus the rest ranked and queued, not dropped
 
 The propensity and intent engines produce signals; the Next Best Action engine is what converts those signals into a decision. From a product standpoint, this is the layer that turns raw customer data into something the business can actually act on — everything upstream (Customer Intelligence Layer) is about knowing the customer, everything here is about deciding what to do about it.
 
