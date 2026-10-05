@@ -103,6 +103,15 @@ Five core capabilities:
 4. RAG-Based Response Automation — grounds every response in real knowledge sources (product FAQs, brokerage plans, KYC policies, compliance guidelines) instead of letting the LLM answer generically. The product outcome: a grounded, compliant response instead of a hallucinated one — critical in financial services.
 5. RM Collaboration Layer — AI handles engagement, RM handles relationships. Before handoff, the RM receives a full package: customer profile, intent summary, conversation history, lead score, recommended next action, product interest — so they walk in with context, not a cold lead.
 
+| Capability                                | Product question                     | Frameworks in this document                       |
+|-------------------------------------------|--------------------------------------|---------------------------------------------------|
+| Trigger Management                        | When should engagement begin?        | 1. Trigger, 2. Frequency Governance               |
+| Journey Orchestration                     | What should happen next?             | 3. Channel Strategy, 4. Sequencing                |
+| Conversational Intelligence               | How do we hold the conversation?     | 5. Agentic AI Workflow Design                     |
+| RAG-Based Response Automation             | What do we say, and can we trust it? | 6. RAG Grounding and Knowledge Governance (added) |
+| RM Collaboration                          | Who acts next, with what context?    | 7. RM Handoff Package (added)                     |
+| Continuous Learning (runs under all five) | Does the system improve?             | 8. Continuous Learning (added)                    |
+
 Plus a Continuous Learning Layer running underneath all five: every conversation outcome, RM feedback, and conversion result feeds back into the propensity models, decision engine, and recommendation models — making the system self-improving rather than static.
 
 The key architectural distinction the doc makes: the Agentic WhatsApp Journey is not the Engagement Orchestration Layer — it's one capability inside it.
