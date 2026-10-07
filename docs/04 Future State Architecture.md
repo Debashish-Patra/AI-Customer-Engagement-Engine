@@ -176,3 +176,20 @@ The Human Engagement Layer operates through three steps:
   - Customer outcomes — faster responses, personalized experiences, reduced friction, higher satisfaction
   - Business outcomes — higher engagement, higher conversion, lower lead leakage, improved RM productivity, reduced acquisition cost
   - Strategic outcomes — an AI-augmented sales model, scalable customer engagement, a consistent customer experience, a data-driven growth engine
+
+| Tier      | Outcome                        | Proposed metric                                                                                              |
+|-----------|--------------------------------|--------------------------------------------------------------------------------------------------------------|
+| Customer  | Faster responses               | Median time to first response, by channel; time from handoff-ready to first RM contact                       |
+| Customer  | Personalized experiences       | Share of touches carrying a decision-selected product or content; reply rate on those versus generic touches |
+| Customer  | Reduced friction               | Step-level drop-off in the account-opening journey (demat, KYC); repeat-question rate across AI and RM       |
+| Customer  | Higher satisfaction            | CSAT after AI conversations and after RM calls; complaint rate                                               |
+| Business  | Higher engagement              | Reply rate, journey completion, opt-out rate (Framework 2)                                                   |
+| Business  | Higher conversion              | Funded-account conversion, lead to funded (Framework 1)                                                      |
+| Business  | Lower lead leakage             | Share of leads never contacted, contacted after SLA, or dropped between routing and first touch              |
+| Business  | Improved RM productivity       | Share of RM time on ready customers, conversion per RM, revenue per RM (Framework 3)                         |
+| Business  | Reduced acquisition cost       | Cost per funded account, by source and by journey path                                                       |
+| Strategic | AI-augmented sales model       | Share of funded accounts whose journey was AI-initiated and RM-closed                                        |
+| Strategic | Scalable customer engagement   | Customers engaged per RM; cost to serve per active customer as volume grows                                  |
+| Strategic | Consistent customer experience | Spread of response time, conversion and satisfaction across channels and segments                            |
+| Strategic | Data-driven growth engine      | Share of threshold and rule changes made from measured evidence; days from finding to change                 |
+
