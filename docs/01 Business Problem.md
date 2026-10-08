@@ -9,7 +9,7 @@ Lead Generated
 → No Conversion
 
 This is a flow problem, not a lead-volume problem. More leads or more RMs poured into the same flow lose in the same places. The argument of this paper has four steps:
-1. <u>Where the lead is lost</u>. One lead's path from generation to no conversion, and the three challenges along it.
+1. <ins>Where the lead is lost</ins>. One lead's path from generation to no conversion, and the three challenges along it.
 2. Why. A root cause analysis across people, process, technology and customer.
 3. The response. The six-layer AI-powered customer engagement architecture, with each root cause mapped to the layer that removes it.
 4. The proof. How the business will know the system caused the improvement, not the market or luck.
