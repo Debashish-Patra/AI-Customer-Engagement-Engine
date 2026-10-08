@@ -17,10 +17,10 @@ This is a flow problem, not a lead-volume problem. More leads or more RMs poured
 ### The three challenges
 Each challenge hides a different loss: the wrong lead gets attention, the right advisor does not know about it, and the conversation starts from nothing.
 1. Tracking and prioritization gap
- • There is no centralized view of leads, so a lead from one source and a lead from another are not tracked in the same place.
- • There is no prioritization, so a ready customer and a cold one wait in the same queue.
- • Leads are not mapped effectively to advisors, so they go to whoever is next rather than to the advisor best placed to convert them.
-• Effect: customer engagement is delayed, and the delay falls on the customers who were most ready.
+- There is no centralized view of leads, so a lead from one source and a lead from another are not tracked in the same place.
+- There is no prioritization, so a ready customer and a cold one wait in the same queue.
+- Leads are not mapped effectively to advisors, so they go to whoever is next rather than to the advisor best placed to convert them.
+Effect: customer engagement is delayed, and the delay falls on the customers who were most ready.
 2. Advisor awareness and follow-up gap
 • Advisors are unaware of the leads assigned to them, because nothing tells them a lead has arrived.
 • RM follow-up is inconsistent: some leads get repeated attempts and others get none.
