@@ -193,3 +193,66 @@ The Human Engagement Layer operates through three steps:
 | Strategic | Consistent customer experience | Spread of response time, conversion and satisfaction across channels and segments                            |
 | Strategic | Data-driven growth engine      | Share of threshold and rule changes made from measured evidence; days from finding to change                 |
 
+  ## North Star Metrics
+
+  Choose net new AUM as the North Star, and treat conversion, retention and revenue per active customer as its three drivers - conversion given a stage and window; revenue per active customer; add retention, time to first funding and guardrails
+
+  | Metric                      | Definition                                                                | Role              |
+|-----------------------------|---------------------------------------------------------------------------|-------------------|
+| Net new AUM                 | Inflows less outflows from customers in the engaged population, per month | North Star        |
+| Lead-to-funded conversion   | Funded accounts within 30 days of lead creation, by cohort and source     | Driver            |
+| Active-customer retention   | Share of customers active in the prior period who are still active        | Driver            |
+| Revenue per active customer | Transactional and recurring revenue divided by active customers           | Driver            |
+| Time to first funding       | Days from lead creation to first funded account                           | Leading indicator |
+| Complaint and opt-out rate  | Complaints and channel opt-outs per 1,000 engaged customers               | Guardrail         |
+
+## Engagement Metrics
+
+Keep open rate, click rate and journey completion, define each metric per channel, and add the metrics that show whether the customer's experience improved - add reply rate, first response time, opt-out rate and CSAT
+
+| Metric                     | Definition                                                 | Role             | Counter-metric                    |
+|----------------------------|------------------------------------------------------------|------------------|-----------------------------------|
+| Journey completion         | Journeys reaching their defined end state, by journey type | Headline         | Opt-out rate in the same journeys |
+| Step drop-off              | Share leaving at each journey step, by channel             | Diagnostic       | Repeat-question rate              |
+| Reply rate                 | Customers replying within the journey, by channel          | Headline         | Opt-out rate                      |
+| Delivered, read            | Per channel; read only where reported                      | Diagnostic       | None needed                       |
+| Click to action            | Clicks followed by the next step within 24 hours           | Diagnostic       | Unsubscribe rate                  |
+| Median first response time | Customer message to first reply, AI or human               | Customer outcome | Escalation rate                   |
+| Opt-out and DND rate       | Opt-outs per 1,000 customers contacted, by channel         | Guardrail        | Journey completion                |
+| CSAT after AI conversation | One-question survey at journey end or handoff              | Customer outcome | Survey response rate              |
+
+## Advisor Productivity Metrics
+
+Keep calls, conversion and revenue per RM, but normalize them for the quality of the leads each RM receives - group by Identify, Prepare, Engage; add handoff precision, context-rebuild time, SLA attainment
+
+| Step     | Metric                                | Definition                                                         | Owner framework (Layer 5)               |
+|----------|---------------------------------------|--------------------------------------------------------------------|-----------------------------------------|
+| Identify | Handoff precision                     | Share of handoffs the RM dispositions as ready                     | Handoff                                 |
+| Identify | Handoff miss rate                     | Customers who converted without a handoff                          | Handoff                                 |
+| Prepare  | Context-rebuild time                  | Minutes the RM spends gathering context per call                   | Advisor Workbench                       |
+| Engage   | Share of RM time on ready customers   | Call time on handoff-ready customers over total call time          | Prioritization, Capacity and Assignment |
+| Engage   | Time to first contact, SLA attainment | Handoff-ready to first call, against the segment SLA               | SLA                                     |
+| Engage   | First-contact success rate            | Handoffs reaching a conversation on the first attempt              | Engagement Initiation                   |
+| Outcome  | Conversion per RM, normalized         | Funded conversions per handoff, adjusted for purpose and readiness | Feedback Learning Loop                  |
+| Outcome  | Revenue per RM                        | Revenue from handed-over customers, by segment                     | Feedback Learning Loop                  |
+| Capacity | Calls per RM, utilization             | Calls and active hours against capacity                            | Capacity and Assignment                 |
+
+## AI Effectiveness Metrics
+
+Lift and calibration showcase the accuracy aspect; recall paired with precision; fallback escalation as the confidence measure; add grounded-answer, fairness and drift
+
+| Metric                              | Purpose                 | Definition                                                                                                  | Pairs with                |
+|-------------------------------------|-------------------------|-------------------------------------------------------------------------------------------------------------|---------------------------|
+| Propensity lift and calibration     | Prediction quality      | Top-decile lift, precision-recall AUC and calibration error, per model                                      | Drift check each month    |
+| Recommendation precision and recall | Correct recommendations | Right decisions over decisions made; right decisions over decisions that should have been made              | Miss rate                 |
+| NBA acceptance and lift             | Decision value          | Share of recommendations actioned by RM or customer; conversion against a holdout (see Incrementality)      | Opt-out rate              |
+| Automation rate                     | AI efficiency           | Journeys completed with no human touch                                                                      | CSAT, repeat contact      |
+| Fallback escalation rate            | AI confidence           | Escalations because the AI could not answer or fell below threshold                                         | Required and ready rates  |
+| Grounded-answer rate                | Answer quality          | Answers supported by retrieved sources (Layer 4 RAG)                                                        | No-answer-to-handoff rate |
+| Fairness by segment                 | Governance              | Decision and conversion rates by customer segment, age band and region, against the Layer 3 bias thresholds | Explainability coverage   |
+| Model drift                         | Governance              | Change in score distribution and in accuracy against the last review                                        | Retraining date           |
+
+
+
+  
+
