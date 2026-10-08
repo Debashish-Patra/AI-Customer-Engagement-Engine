@@ -8,6 +8,8 @@ Lead Generated
 → Customer Interest Lost
 → No Conversion
 
+<img width="500" height="572" alt="image" src="https://github.com/user-attachments/assets/49782c6c-6e38-4b9c-a686-fb538c811d60" />
+
 This is a flow problem, not a lead-volume problem. More leads or more RMs poured into the same flow lose in the same places. The aim is to fix the allocation of RM time and customer attention, not to shrink headcount or replace advisors.
 
 ## How a lead is lost today
