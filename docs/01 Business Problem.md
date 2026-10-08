@@ -30,8 +30,8 @@ Each challenge hides a different loss: the wrong lead gets attention, the right 
 - There is little visibility into what the customer wants or how ready they are.
 - Effect: conversations cannot be personalized. The RM asks questions the customer has already answered and recommends without knowing the customer's interest.
 
-**How they compound**
-The three gaps are not independent. Weak tracking sends the lead to the wrong place, the advisor does not know it is there, and when contact finally happens the RM has no context to make the delay worth the customer's time. A fix to any one of them alone leaves the other two to cancel the gain.
+**How they compound ?**
+- The three gaps are not independent. Weak tracking sends the lead to the wrong place, the advisor does not know it is there, and when contact finally happens the RM has no context to make the delay worth the customer's time. A fix to any one of them alone leaves the other two to cancel the gain.
  
 Root Cause Analysis - 
 
