@@ -12,11 +12,11 @@ Lead Generated
 
 This is a flow problem, not a lead-volume problem. More leads or more RMs poured into the same flow lose in the same places. The aim is to fix the allocation of RM time and customer attention, not to shrink headcount or replace advisors.
 
-### How a lead is lost today
+## How a lead is lost today
 
 <img width="832" height="377" alt="image" src="https://github.com/user-attachments/assets/fa386260-72ca-4ff8-9ca1-21e2b76534aa" />
 
-### The three challenges
+## The three challenges
 Each challenge hides a different loss: the wrong lead gets attention, the right advisor does not know about it, and the conversation starts from nothing.
 1. Tracking and prioritization gap
 - There is no centralized view of leads, so a lead from one source and a lead from another are not tracked in the same place.
@@ -35,12 +35,17 @@ Each challenge hides a different loss: the wrong lead gets attention, the right 
 **How they compound ?**
 - The three gaps are not independent. Weak tracking sends the lead to the wrong place, the advisor does not know it is there, and when contact finally happens the RM has no context to make the delay worth the customer's time. A fix to any one of them alone leaves the other two to cancel the gain.
  
-Root Cause Analysis - 
+## Root cause analysis
 
-- People: Lack of ownership
-- Process: Weak lead assignment workflow
-- Technology: No advisor dashboard or notifications
-- Customer: Disconnected online/offline journey
+The problem has four root causes, one each in people, process, technology and the customer's own journey, and the technology cause is the one that lets the other three persist.
+
+| Dimension  | Root cause                            | How it shows up                                                                                                      | Challenges it produces                                     |
+|------------|---------------------------------------|----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
+| People     | Lack of ownership                     | No one is accountable for a lead between generation and first conversation, so follow-up depends on individual habit | 1 (mapping)<br>2 (follow-up)                               |
+| Process    | Weak lead assignment workflow         | Assignment has no priority rules, no readiness test and no time standard, so leads wait                              | 1 (tracking, prioritization)<br>2 (contact after two days) |
+| Technology | No advisor dashboard or notifications | Advisors cannot see their leads or be alerted when one arrives; there is no central record of leads or intent        | 1 (mapping)<br>2 (follow-up)<br>3 (low intent visibility)  |
+| Customer   | Disconnected online/offline journey   | The customer's digital activity and offline contact are not joined, so each channel starts again                     | 3 (fragmentation, low intent visibility)                   |
+
 
 
 
