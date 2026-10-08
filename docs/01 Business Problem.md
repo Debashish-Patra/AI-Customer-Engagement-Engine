@@ -39,12 +39,13 @@ Each challenge hides a different loss: the wrong lead gets attention, the right 
 
 The problem has four root causes, one each in people, process, technology and the customer's own journey, and the technology cause is the one that lets the other three persist.
 
-| Dimension  | Root cause                            | How it shows up                                                                                                      | Challenges it produces                                     |
-|------------|---------------------------------------|----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
-| People     | Lack of ownership                     | No one is accountable for a lead between generation and first conversation, so follow-up depends on individual habit | 1 (mapping)<br>2 (follow-up)                               |
-| Process    | Weak lead assignment workflow         | Assignment has no priority rules, no readiness test and no time standard, so leads wait                              | 1 (tracking, prioritization)<br>2 (contact after two days) |
-| Technology | No advisor dashboard or notifications | Advisors cannot see their leads or be alerted when one arrives; there is no central record of leads or intent        | 1 (mapping)<br>2 (follow-up)<br>3 (low intent visibility)  |
-| Customer   | Disconnected online/offline journey   | The customer's digital activity and offline contact are not joined, so each channel starts again                     | 3 (fragmentation, low intent visibility)                   |
+| Dimension  | Root cause                          | How it shows up                                                                                                      | Challenges it produces                                     |
+|------------|-------------------------------------|----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
+| People     | Nobody owns the lead                | No one is accountable for a lead between generation and first conversation, so follow-up depends on individual habit | 1 (mapping)<br>2 (follow-up)                               |
+| Process    | Weak hand-over rule                 | RM Assignment has no priority rules, no readiness test and no time standard, so leads wait                           | 1 (tracking, prioritization)<br>2 (contact after two days) |
+| Technology | No dashboard or alerts              | Advisors cannot see their leads or be alerted when one arrives; there is no central record of leads or intent        | 1 (mapping)<br>2 (follow-up)<br>3 (low intent visibility)  |
+| Customer   | Online and offline are disconnected | The customer's digital activity and offline contact are not joined, so each channel starts again                     | 3 (fragmentation, low intent visibility)                   |
+
 
 ## What the problem costs
 
