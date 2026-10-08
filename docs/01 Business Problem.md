@@ -12,7 +12,7 @@ Lead Generated
 
 This is a flow problem, not a lead-volume problem. More leads or more RMs poured into the same flow lose in the same places. The aim is to fix the allocation of RM time and customer attention, not to shrink headcount or replace advisors.
 
-## How a lead is lost today
+### How a lead is lost today
 
 <img width="832" height="377" alt="image" src="https://github.com/user-attachments/assets/fa386260-72ca-4ff8-9ca1-21e2b76534aa" />
 
