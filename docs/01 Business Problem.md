@@ -48,7 +48,8 @@ The problem has four root causes, one each in people, process, technology and th
 
 ## What the problem costs
 
-Every lead lost after it was paid for is acquisition spend with no return, and the same flow wastes RM time on leads that were never going to convert. This paper does not put a rupee figure on that loss, because the inputs below have not been pulled yet; the table says what to measure and where it lives.
+Every lead lost after it was paid for is acquisition spend with no return, and the same flow wastes RM time on leads that were never going to convert. 
+
 Four loss mechanisms
 1. Lead leakage. Leads that are never contacted, contacted late, or dropped between assignment and first call. Acquisition spend on them is lost in full.
 2. Cost of delay. Leads that were contacted but only after the interest had faded. They convert at a lower rate than the same lead contacted promptly.
