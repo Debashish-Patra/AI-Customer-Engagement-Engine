@@ -46,6 +46,15 @@ The problem has four root causes, one each in people, process, technology and th
 | Technology | No advisor dashboard or notifications | Advisors cannot see their leads or be alerted when one arrives; there is no central record of leads or intent        | 1 (mapping)<br>2 (follow-up)<br>3 (low intent visibility)  |
 | Customer   | Disconnected online/offline journey   | The customer's digital activity and offline contact are not joined, so each channel starts again                     | 3 (fragmentation, low intent visibility)                   |
 
+## What the problem costs
+
+Every lead lost after it was paid for is acquisition spend with no return, and the same flow wastes RM time on leads that were never going to convert. This paper does not put a rupee figure on that loss, because the inputs below have not been pulled yet; the table says what to measure and where it lives.
+Four loss mechanisms
+1. Lead leakage. Leads that are never contacted, contacted late, or dropped between assignment and first call. Acquisition spend on them is lost in full.
+2. Cost of delay. Leads that were contacted but only after the interest had faded. They convert at a lower rate than the same lead contacted promptly.
+3. Misallocated RM time. Time spent searching for the right customer, rebuilding context that already exists, and working leads that were never going to convert. Headcount cost is unchanged, but its return is lower.
+4. Customer goodwill. Repeated questions, uneven follow-up and silence after an enquiry reduce the chance of a later purchase and the chance of a referral.
+
 
 
 
