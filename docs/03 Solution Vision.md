@@ -26,6 +26,19 @@ The AI Decisioning Layer acts as the digital front door between lead generation 
 | 5 Human Engagement         | Put the right RM on the right customer, ready to help          | AI-to-human handoff, advisor workbench, RM capacity and assignment, RM prioritization, service levels, engagement initiation, feedback loop                    | Layer 6                |
 | 6 Business Outcomes        | Prove it worked and say what to change                         | North Star, engagement, advisor and AI metrics, reporting and feedback loops, incrementality testing                                                           | Back to Layers 1, 3, 5 |
 
+### One customer, end to end - Take a customer who messages "I want to start investing". 
+
+The same path applies to any lead or customer action.
+
+<p align="center"><img width="847" height="430" alt="image" src="https://github.com/user-attachments/assets/c6c0487d-ffb7-4a0a-ba43-d815ef6dacb1" />
+
+1. Event arrives. The message, a form, an app install or a started account-opening journey is the trigger.
+2. Safety checks. Is there live consent? Is a journey already running for this customer? Would this clash with another message? Only then does Layer 3 act.
+3. Decide. The decision layer scores readiness and picks one of four actions: engage, wait, escalate or assign to an RM. The last two both lead to the RM branch in the picture.
+4. Engage or wait. Engage starts an AI conversation that asks the goal and what is needed to open an account, with answers grounded in approved content. Wait is a timed pause that ends when the customer acts. On any material change the decision is made again.
+5. To an RM. When the customer is ready, or asks for advice such as "Should I invest ₹20L?", the RM gets the customer with a summary of the goal, interest, history and a recommended next action, and must act within a service level for that customer type.
+6. Outcome measured. The result is tied back to the decision and the messages that produced it, and tunes the earlier layers.
+
 ## AI Engagement Layer
 
 The AI engagement layer is the digital front door — it sits between the systems that generate leads and the RMs who close them, and it's built to do six things continuously: 
