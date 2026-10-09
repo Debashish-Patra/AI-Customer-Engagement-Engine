@@ -15,17 +15,16 @@ Design principles
 
 <p align="center"><img width="852" height="592" alt="image" src="https://github.com/user-attachments/assets/8732b722-b852-4a59-979e-ef09366aecef" />
 
-The AI Engagement Layer acts as the digital front door between lead generation and relationship management, preserving customer intent, accelerating conversions, and enabling RMs to focus on high-value conversations rather than initial outreach.
+The AI Decisioning Layer acts as the digital front door between lead generation and relationship management, where the system decides what happens to each customer. The four shared identifiers (customer_id, decision_id, journey_id, touch_id) let any outcome be traced back to the decision and the messages that produced it.
 
-Lead Generated
-→ AI Engagement Layer
-→ Understand Intent
-→ Qualify Customer
-→ Answer Questions
-→ Nurture Interest
-→ Prioritize Lead
-→ RM Handoff
-→ Conversion
+| Layer                      | What it does?                                                  | Frameworks                                                                                                                                                     | Hands to               |
+|----------------------------|----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|
+| 1 Lead Sources             | Take in every lead cleanly and decide whether it can be worked | Lead intake, data quality and consent gate, enrichment, scoring, source attribution, routing eligibility                                                       | Layer 2                |
+| 2 Customer Intelligence    | Know the customer: one profile and what they want              | Identity resolution, Customer 360, behavioural taxonomy, segmentation, intent detection                                                                        | Layer 3                |
+| 3 AI Decisioning           | Decide the next best action and keep the AI governed           | Propensity engine (conversion, product, contactability, churn), customer intent engine, next best action, decision hierarchy, content selection, AI governance | Layer 4                |
+| 4 Engagement Orchestration | Turn a decision into a sequenced conversation                  | Trigger, frequency governance, channel strategy, sequencing, agentic AI workflow, grounded answers (RAG), RM handoff package, continuous learning              | Layer 5                |
+| 5 Human Engagement         | Put the right RM on the right customer, ready to help          | AI-to-human handoff, advisor workbench, RM capacity and assignment, RM prioritization, service levels, engagement initiation, feedback loop                    | Layer 6                |
+| 6 Business Outcomes        | Prove it worked and say what to change                         | North Star, engagement, advisor and AI metrics, reporting and feedback loops, incrementality testing                                                           | Back to Layers 1, 3, 5 |
 
 ## AI Engagement Layer
 
