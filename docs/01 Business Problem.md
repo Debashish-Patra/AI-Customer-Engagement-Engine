@@ -60,7 +60,8 @@ Four loss mechanisms
 ## The fix in one picture
 
 Think of it as a good reception desk: it notes every enquiry, knows the customer, decides what to do next, and puts the right person on the call straight away.
-The highlighted step is the one that closes the two-day gap: the right advisor is told at once and already knows the customer's story. Behind the scenes this is the six-layer AI-powered engagement system.
 
-<p align="center"><img width="842" height="212" alt="image" src="https://github.com/user-attachments/assets/fc951755-832f-451c-9368-e6f247bb5b64" /></p>
+<p align="center"><img width="842" height="212" alt="image" src="https://github.com/user-attachments/assets/fc951755-832f-451c-9368-e6f247bb5b64" />
+
+The highlighted step is the one that closes the two-day gap: the right advisor is told at once and already knows the customer's story. Behind the scenes this is the six-layer AI-powered engagement system.
 
