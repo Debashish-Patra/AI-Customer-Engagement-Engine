@@ -13,6 +13,8 @@ Design principles
 4. Consent and governance built in. Permission, explainability and fairness checks are part of the flow, not added afterwards.
 5. Measured, and proven. Every layer reports into a common set of measures, and gains are shown against a comparison group, not assumed.
 
+### The solution at a glance -  six layers, one by one
+
 <p align="center"><img width="852" height="592" alt="image" src="https://github.com/user-attachments/assets/8732b722-b852-4a59-979e-ef09366aecef" />
 
 The AI Decisioning Layer acts as the digital front door between lead generation and relationship management, where the system decides what happens to each customer. The four shared identifiers (customer_id, decision_id, journey_id, touch_id) let any outcome be traced back to the decision and the messages that produced it.
@@ -39,20 +41,42 @@ The same path applies to any lead or customer action.
 5. To an RM. When the customer is ready, or asks for advice such as "Should I invest ₹20L?", the RM gets the customer with a summary of the goal, interest, history and a recommended next action, and must act within a service level for that customer type.
 6. Outcome measured. The result is tied back to the decision and the messages that produced it, and tunes the earlier layers.
 
-## AI Engagement Layer
+| Identifier  | Created by                    | What it lets you do                                                              |
+|-------------|-------------------------------|----------------------------------------------------------------------------------|
+| customer_id | Layer 2 (identity resolution) | Recognise the same person across systems and channels                            |
+| decision_id | Layer 3                       | Tie every action to the decision that caused it                                  |
+| journey_id  | Layer 4                       | Keep one continuous conversation across channels and across the handoff to an RM |
+| touch_id    | Layers 4 and 5                | Identify each message or call, so results are traced to a single touch           |
 
-The AI engagement layer is the digital front door — it sits between the systems that generate leads and the RMs who close them, and it's built to do six things continuously: 
+### Outcomes and how they are proven
+The solution is judged in three tiers, and a result counts only if a comparison with customers the system left alone shows the system caused it.
 
-<img width="1283" height="290" alt="image" src="https://github.com/user-attachments/assets/fc481145-2fcf-42a6-bfeb-113127bb0149" />
+| Tier      | Outcomes                                                                                                                 |
+|-----------|--------------------------------------------------------------------------------------------------------------------------|
+| Customer  | Faster responses, personalized experiences, reduced friction, higher satisfaction                                        |
+| Business  | Higher engagement, higher conversion, lower lead leakage, improved RM productivity, reduced acquisition cost             |
+| Strategic | An AI-augmented sales model, scalable customer engagement, a consistent customer experience, a data-driven growth engine |
 
+Measures
+• North Star: net new AUM is proposed, driven by lead-to-funded conversion, retention and revenue per active customer. Opt-outs and complaints sit beside it as guardrails.
+• Engagement: journey completion, reply rate, first response time, opt-out rate and satisfaction. Open and click rates are diagnostics only.
+• Advisor productivity: share of RM time on ready customers, time to first contact, service-level attainment, conversion per RM adjusted for the quality of leads received.
+• AI effectiveness: prediction lift and calibration, recommendation precision and recall, automation rate paired with resolution quality, fallback escalation rate, grounded-answer rate, fairness and drift.
+• Reporting: one metric dictionary, with reports by audience and a map from each metric to the setting that moves it.
 
-1. Engage every lead instantly — no lead sits untouched waiting for a human to pick it up; the moment it's created, something responds
-2. Capture and enrich intent signals — every interaction (what they clicked, asked, or ignored) gets logged and used to build a fuller picture of what the customer actually wants — not every lead deserves the same urgency; this ranks them by how likely and how ready they are to convert
-3. Prioritize by propensity — routine questions, basic qualification, status updates — handled without needing an RM's time
-4. Automate the low-value back-and-forth — routine questions, basic qualification, status updates — handled without needing an RM's time
-5. Route high-intent prospects to RMs — once a lead is qualified and warm, it's handed to a human at the right moment, not too early (wasting RM time) or too late (losing momentum)
-6. Keep the experience consistent across channels — whether the customer is on WhatsApp, in-app, or on a call, the context and tone carry over rather than resetting
+### Guardrails & Risks
 
+The solution acts on customers' behalf in a regulated business, so the guardrails below apply in every layer and are checked in the flow, not afterwards. The risks that follow show what each guardrail protects against.
 
-
+| Risk                                                             | How it is handled                                                                                     | Guardrail it relies on                    |
+|------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|-------------------------------------------|
+| Wrong or non-compliant AI answers                                | Approved content only; advice always goes to an RM                                                    | Grounded answers; advice goes to a human  |
+| Models drift or treat some customer segments unfairly            | Bias thresholds by segment and regular drift review                                                   | Fairness and drift; explainable decisions |
+| Customers contacted without permission, or customer data misused | Consent captured at intake and checked again before every send; each step uses only the data it needs | Consent                                   |
+| Over-contact irritates customers                                 | Combined contact ceiling; opt-out rate watched as a warning sign                                      | Contact limits; consent                   |
+| Poor source data and duplicate records                           | Data quality and consent gate at intake; review of uncertain identity merges                          | Consent (intake gate)                     |
+| The decision layer fails or is slow                              | A simple channel table and a no-response sequence keep journeys running                               | Fallback                                  |
+| Advisors see alerts and priority as extra work or surveillance   | Involve RM leads in setting service levels; show the workbench saves context-gathering time           | Service levels                            |
+| Gains credited to the market or a campaign                       | Holdout comparison before any claim of impact                                                         | Fair testing                              |
+| Franchise and offline channels left outside the flow             | Include them in intake and the advisor workbench from the first phase                                 | Build sequence (below)                    |
 
