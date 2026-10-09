@@ -1,10 +1,19 @@
 # Product Vision
 
-Build an always-on AI Engagement Layer that serves as the intelligence and interaction fabric between lead generation systems and relationship managers.
+The vision: Every customer who shows interest is met with the right message, at the right time, through the right channel, with the right human touch, and the business can prove it worked.
 
-The platform is designed to ensure every lead gets instant, intent-aware engagement that's automatically prioritized, nurtured, and routed to the right RM at the right time — consistently, across every channel.
+Today, leads are generated from many sources but are not effectively converted, because of gaps in assignment, visibility and engagement. A lead is assigned, the RM makes contact two days later, the customer's interest has gone, and there is no conversion. 
 
-Success is achieved when customer engagement begins immediately upon lead creation and continues uninterrupted until conversion. Thus, we transform customer acquisition from a human-dependent process to an AI-assisted engagement model, where every prospect receives immediate, contextual, and personalized interactions from the moment of lead creation until successful RM handoff.
+The solution closes those gaps with one connected system, built as six layers.
+
+Design principles
+1. One customer, one journey. A customer is recognised once, and one continuous conversation follows them across channels and across the handoff to an RM.
+2. AI for the routine, people for the advice. The aim is to fix the allocation of RM time, not to shrink headcount or replace advisors. Advice always goes to a human.
+3. One owner per decision. Each decision (when, how, what, who) belongs to one layer, so layers do not contradict each other.
+4. Consent and governance built in. Permission, explainability and fairness checks are part of the flow, not added afterwards.
+5. Measured, and proven. Every layer reports into a common set of measures, and gains are shown against a comparison group, not assumed.
+
+<p align="center"><img width="852" height="592" alt="image" src="https://github.com/user-attachments/assets/8732b722-b852-4a59-979e-ef09366aecef" />
 
 The AI Engagement Layer acts as the digital front door between lead generation and relationship management, preserving customer intent, accelerating conversions, and enabling RMs to focus on high-value conversations rather than initial outreach.
 
