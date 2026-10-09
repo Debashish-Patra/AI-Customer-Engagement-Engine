@@ -8,13 +8,13 @@ Lead Generated
 → Customer Interest Lost
 → No Conversion
 
-<img width="500" height="572" alt="image" src="https://github.com/user-attachments/assets/49782c6c-6e38-4b9c-a686-fb538c811d60" />
+<p align="center"><img width="500" height="572" alt="image" src="https://github.com/user-attachments/assets/49782c6c-6e38-4b9c-a686-fb538c811d60" />
 
 This is a flow problem, not a lead-volume problem. More leads or more RMs poured into the same flow lose in the same places. The aim is to fix the allocation of RM time and customer attention, not to shrink headcount or replace advisors.
 
 ## How a lead is lost today
 
-<img width="832" height="377" alt="image" src="https://github.com/user-attachments/assets/fa386260-72ca-4ff8-9ca1-21e2b76534aa" />
+<p align="center"><img width="832" height="377" alt="image" src="https://github.com/user-attachments/assets/fa386260-72ca-4ff8-9ca1-21e2b76534aa" />
 
 ## The three challenges
 Each challenge hides a different loss: the wrong lead gets attention, the right advisor does not know about it, and the conversation starts from nothing.
