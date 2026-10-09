@@ -57,6 +57,10 @@ Four loss mechanisms
 3. Misallocated RM time. Time spent searching for the right customer, rebuilding context that already exists, and working leads that were never going to convert. Headcount cost is unchanged, but its return is lower.
 4. Customer goodwill. Repeated questions, uneven follow-up and silence after an enquiry reduce the chance of a later purchase and the chance of a referral.
 
+## The fix in one picture
 
+Think of it as a good reception desk: it notes every enquiry, knows the customer, decides what to do next, and puts the right person on the call straight away.
+The highlighted step is the one that closes the two-day gap: the right advisor is told at once and already knows the customer's story. Behind the scenes this is the six-layer AI-powered engagement system.
 
+<p align="center"><img width="842" height="212" alt="image" src="https://github.com/user-attachments/assets/fc951755-832f-451c-9368-e6f247bb5b64" /></p>
 
