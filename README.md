@@ -5,10 +5,10 @@ An AI-powered customer engagement platform designed to improve lead conversion b
 <ins>THE PROBLEM</ins><br>
 Leads come in from many sources but don’t convert. They are assigned late (RM contact about 2 days later), advisors don’t know what’s assigned to them, follow-up is inconsistent, and the online and offline journeys are disconnected. By the time someone calls, interest has gone.
 
-<ins>The idea</ins><br>
+<ins>THE IDEA</ins><br>
 Replace manual, delayed, one-size-fits-all follow-up with a system that decides who to reach, with what, through which channel and when. People step in where judgement and trust matter. The aim is the right customer, message, channel and time.
 
-<ins>The six layers</ins>
+<ins>THE 6 LAYERS</ins>
 | # | Layer                    | What it does                                                                                                                                                  |
 |---|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1 | Lead Sources             | Captures leads from every channel into one tracked, deduplicated pipeline                                                                                     |
@@ -20,15 +20,14 @@ Replace manual, delayed, one-size-fits-all follow-up with a system that decides 
 
 
 The solution combined:
-
 - Customer Data Platform (CDP)
 - Propensity Models
 - Decision Engine
 - Agentic WhatsApp Assistant
 - Relationship Manager Workflow
 
-<ins>Principles</ins><br>
+<ins>THE UNDERLYING PRINCIPLE</ins><br>
 One owner per decision. Shared identifiers across layers. Humans own handoff thresholds. Guardrails and risks are built in. Impact is proven through incrementality, not assumed.
 
-<ins>Outcomes</ins><br>
+<ins>OUTCOMES</ins><br>
 These are valued in three tiers: customer (speed, relevance), business (conversion, AUM, advisor productivity) and strategic (scalable engagement capability).
