@@ -8,6 +8,14 @@ Leads come in from many sources but don’t convert. They are assigned late (RM 
 <ins>The idea</ins><br>
 Replace manual, delayed, one-size-fits-all follow-up with a system that decides who to reach, with what, through which channel and when. People step in where judgement and trust matter. The aim is the right customer, message, channel and time.
 
+#	Layer	What it does
+1	Lead Sources	Captures leads from every channel into one tracked, deduplicated pipeline
+2	Customer Intelligence	Builds one customer view (customer_id): profile, behaviour, intent, stage
+3	AI Decisioning	Decides the next best action and priority (decision_id), within governance guardrails
+4	Engagement Orchestration	Owns when and how: channel, timing, sequencing, frequency (journey_id, touch_id)
+5	Human Engagement	Routes hot or complex leads to advisors with context, dashboards and alerts, and trains them
+6	Business Outcomes	Proves it worked, with net new AUM as the proposed North Star, plus engagement, advisor productivity and AI effectiveness metrics, validated by holdout tests
+
 Business Problem
 → Customer Journey
 → AI Solution Design
