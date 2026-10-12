@@ -2,7 +2,7 @@
 
 An AI-powered customer engagement platform designed to improve lead conversion by reducing response latency, personalizing customer interactions and orchestrating next-best actions across the acquisition funnel.
 
-<ins>The problem</ins><br>
+<ins>THE PROBLEM</ins><br>
 Leads come in from many sources but don’t convert. They are assigned late (RM contact about 2 days later), advisors don’t know what’s assigned to them, follow-up is inconsistent, and the online and offline journeys are disconnected. By the time someone calls, interest has gone.
 
 <ins>The idea</ins><br>
