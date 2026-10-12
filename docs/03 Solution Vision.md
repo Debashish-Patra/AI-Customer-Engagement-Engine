@@ -58,11 +58,11 @@ The solution is judged in three tiers, and a result counts only if a comparison 
 | Strategic | An AI-augmented sales model, scalable customer engagement, a consistent customer experience, a data-driven growth engine |
 
 Measures
-• North Star: net new AUM is proposed, driven by lead-to-funded conversion, retention and revenue per active customer. Opt-outs and complaints sit beside it as guardrails.
-• Engagement: journey completion, reply rate, first response time, opt-out rate and satisfaction. Open and click rates are diagnostics only.
-• Advisor productivity: share of RM time on ready customers, time to first contact, service-level attainment, conversion per RM adjusted for the quality of leads received.
-• AI effectiveness: prediction lift and calibration, recommendation precision and recall, automation rate paired with resolution quality, fallback escalation rate, grounded-answer rate, fairness and drift.
-• Reporting: one metric dictionary, with reports by audience and a map from each metric to the setting that moves it.
+- North Star: net new AUM is proposed, driven by lead-to-funded conversion, retention and revenue per active customer. Opt-outs and complaints sit beside it as guardrails.
+- Engagement: journey completion, reply rate, first response time, opt-out rate and satisfaction. Open and click rates are diagnostics only.
+- Advisor productivity: share of RM time on ready customers, time to first contact, service-level attainment, conversion per RM adjusted for the quality of leads received.
+- AI effectiveness: prediction lift and calibration, recommendation precision and recall, automation rate paired with resolution quality, fallback escalation rate, grounded-answer rate, fairness and drift.
+- Reporting: one metric dictionary, with reports by audience and a map from each metric to the setting that moves it.
 
 ### Guardrails & Risks
 
