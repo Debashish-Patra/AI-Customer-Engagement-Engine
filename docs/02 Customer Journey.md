@@ -1,11 +1,17 @@
 # Customer Journey map
 
-A new investor moves through six stages, from realising the need to invest to growing with the broker. The journey is weakest at Application & Verification, and an account only creates value once it is funded and traded.
-• Six stages: Awareness, Consideration, Application & Verification, Activation & Funding, First Trade & Engagement, Ongoing Engagement & Growth.
-• Lowest point: Application & Verification, where the customer feels overwhelmed by the process (document upload failures, KYC errors, delayed approval). This is a working hypothesis, to be validated with data.
-• Value is created after the account opens: funding, the first trade and continued activity drive AUM. We therefore propose measuring conversion as funded and traded, not as lead to account opened.
+A new investor moves through six stages, from realising the need to invest to growing with the broker. The journey is weakest at Application & Verification, and an account only creates value once it is funded and traded. <br>
+- Six stages: Awareness, Consideration, Application & Verification, Activation & Funding, First Trade & Engagement, Ongoing Engagement & Growth.
+- Lowest point: Application & Verification, where the customer feels overwhelmed by the process (document upload failures, KYC errors, delayed approval). This is a working hypothesis, to be validated with data.
+- Value is created after the account opens: funding, the first trade and continued activity drive AUM. We therefore propose measuring conversion as funded and traded, not as lead to account opened.
 
-<img width="1275" height="672" alt="image" src="https://github.com/user-attachments/assets/60c4c89c-55fe-4a40-a93c-8f959a8cff6e" />
+<img width="827" height="335" alt="image" src="https://github.com/user-attachments/assets/23ad38f4-d25e-41bc-8902-639442a4ad25" />
+
+<img width="886" height="477" alt="image" src="https://github.com/user-attachments/assets/b7f68997-ddb5-48ed-992b-ed8afdd4c7e1" />
+
+Customers start doubtful, dip to their lowest point at Application & Verification, peak at the first trade, then settle into being invested but unsure what to do next. The arc is a relative, qualitative view from a design exercise, not measured sentiment; the section on what we still need to validate says how to test it.
+Two moments carry the most risk: the dip at Application, where the process itself is the problem, and the fall after the first trade, where guidance is the problem.
+
 
 The details for the stages are mentioned below - 
 
