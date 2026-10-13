@@ -5,9 +5,9 @@ A new investor moves through six stages, from realising the need to invest to gr
 - Lowest point: Application & Verification, where the customer feels overwhelmed by the process (document upload failures, KYC errors, delayed approval). This is a working hypothesis, to be validated with data.
 - Value is created after the account opens: funding, the first trade and continued activity drive AUM. We therefore propose measuring conversion as funded and traded, not as lead to account opened.
 
-<img width="827" height="335" alt="image" src="https://github.com/user-attachments/assets/23ad38f4-d25e-41bc-8902-639442a4ad25" />
+<p align="center"><img width="827" height="335" alt="image" src="https://github.com/user-attachments/assets/23ad38f4-d25e-41bc-8902-639442a4ad25" />
 
-<img width="886" height="477" alt="image" src="https://github.com/user-attachments/assets/b7f68997-ddb5-48ed-992b-ed8afdd4c7e1" />
+<p align="center"><img width="886" height="477" alt="image" src="https://github.com/user-attachments/assets/b7f68997-ddb5-48ed-992b-ed8afdd4c7e1" />
 
 Customers start doubtful, dip to their lowest point at Application & Verification, peak at the first trade, then settle into being invested but unsure what to do next. The arc is a relative, qualitative view from a design exercise, not measured sentiment; the section on what we still need to validate says how to test it.
 Two moments carry the most risk: the dip at Application, where the process itself is the problem, and the fall after the first trade, where guidance is the problem.
