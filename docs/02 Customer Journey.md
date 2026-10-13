@@ -1,6 +1,9 @@
 # Customer Journey map
 
-Six stages, from first hearing about investing to becoming an active, self-directed customer — mapped against what the customer does, feels, and hits friction on at each point.
+A new investor moves through six stages, from realising the need to invest to growing with the broker. The journey is weakest at Application & Verification, and an account only creates value once it is funded and traded.
+• Six stages: Awareness, Consideration, Application & Verification, Activation & Funding, First Trade & Engagement, Ongoing Engagement & Growth.
+• Lowest point: Application & Verification, where the customer feels overwhelmed by the process (document upload failures, KYC errors, delayed approval). This is a working hypothesis, to be validated with data.
+• Value is created after the account opens: funding, the first trade and continued activity drive AUM. We therefore propose measuring conversion as funded and traded, not as lead to account opened.
 
 <img width="1275" height="672" alt="image" src="https://github.com/user-attachments/assets/60c4c89c-55fe-4a40-a93c-8f959a8cff6e" />
 
