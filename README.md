@@ -24,14 +24,14 @@ Replace manual, delayed, one-size-fits-all follow-up with a system that decides 
 | 5 | Human Engagement         | Routes hot or complex leads to advisors with context, dashboards and alerts, and trains them                                                                  |
 | 6 | Business Outcomes        | Proves it worked, with net new AUM as the proposed North Star, plus engagement, advisor productivity and AI effectiveness metrics, validated by holdout tests |
 
-Each layer has one job and hands to the next. Layer 3 is highlighted because it is where the system decides what happens to each customer. The design rests on five principles: one customer, one journey; AI for the routine and people for the advice; one owner per decision; consent and governance built in; and measured and proven results.
-
 The solution combined:
 - Customer Data Platform (CDP)
 - Propensity Models
 - Decision Engine
 - Agentic WhatsApp Assistant
 - Relationship Manager Workflow
+
+Each layer has one job and hands to the next. Layer 3 is highlighted because it is where the system decides what happens to each customer. The design rests on five principles: one customer, one journey; AI for the routine and people for the advice; one owner per decision; consent and governance built in; and measured and proven results.
 
 ### THE UNDERLYING PRINCIPLE<br>
 One owner per decision. Shared identifiers across layers. Humans own handoff thresholds. Guardrails and risks are built in. Impact is proven through incrementality, not assumed.
