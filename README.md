@@ -2,7 +2,7 @@
 
 Every customer who shows interest should be met with the right message, at the right time, through the right channel, with the right human touch, and the business should be able to prove it worked. An AI-powered customer engagement platform thus, is designed to improve lead conversion by reducing response latency, personalizing customer interactions and orchestrating next-best actions across the acquisition funnel.
 
-<ins>THE PROBLEM</ins><br>
+### THE PROBLEM<br>
 Leads come in from many sources but don’t convert. They are assigned late (RM contact about 2 days later), advisors don’t know what’s assigned to them, follow-up is inconsistent, and the online and offline journeys are disconnected. By the time someone calls, interest has gone.
 
 <p align="center"><img width="900" height="305" alt="image" src="https://github.com/user-attachments/assets/b3259e8d-973a-459d-9394-2282be28af37" />
