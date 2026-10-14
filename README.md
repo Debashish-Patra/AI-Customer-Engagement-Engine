@@ -5,6 +5,9 @@ An AI-powered customer engagement platform designed to improve lead conversion b
 <ins>THE PROBLEM</ins><br>
 Leads come in from many sources but don’t convert. They are assigned late (RM contact about 2 days later), advisors don’t know what’s assigned to them, follow-up is inconsistent, and the online and offline journeys are disconnected. By the time someone calls, interest has gone.
 
+<p align="center"><img width="841" height="267" alt="image" src="https://github.com/user-attachments/assets/5fd28dd0-ec71-4fdd-82f6-aa97efeb5b82" />
+
+
 <ins>THE IDEA</ins><br>
 Replace manual, delayed, one-size-fits-all follow-up with a system that decides who to reach, with what, through which channel and when. People step in where judgement and trust matter. The aim is the right customer, message, channel and time.
 
